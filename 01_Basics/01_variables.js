@@ -1,5 +1,7 @@
 const accountId = 144553;
 let accountEmail = "js@gmail.com";
+
+// It is not advised to use var because it changes the value of the cariable through the program(globally scoped)
 var accountPassword = "12345";
 accountCity = "Jaipur";
 let accountState;
